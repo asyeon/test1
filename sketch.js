@@ -1,10 +1,10 @@
-let width=400, height=400;
+//let width=400, height=400;
 let stars=[];
 let factor=100;
 let speedSlider;
 
 function setup() {
-  createCanvas(width, height);
+  createCanvas(400, 400);
   //Vector = (x,y,z) z:속도감 표현
   speedSlider=createSlider(0, 20, 5, 0.1);
   for(let i=0; i<500; i++) {
